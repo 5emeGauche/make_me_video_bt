@@ -1,6 +1,11 @@
+# MakeMeVideoBt.js #
 MakeMeVideoBt.js create a video iconic link with a background image on a top of an image or a div
-http://makemevideobt.apps.5emeg.com/
 
+ [see demo](http://makemevideobt.apps.5emeg.com/)
+
+
+```html
+<a href='http://makemevideobt.apps.5emeg.com/'>http://makemevideobt.apps.5emeg.com/
 <body>
   <div id="container">
       <img src="img/img.jpg" alt="img" class='bt-video' style='padding-left:50px;margin-top:50px'>
@@ -18,3 +23,4 @@ http://makemevideobt.apps.5emeg.com/
     })
   </script>
 </body>
+```
