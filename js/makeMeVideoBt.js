@@ -2,15 +2,15 @@ jQuery.fn.makeMeVideoBt = function(options){
 	var defaults = {
             img:'img/play.png'
     },
-    $el = $(this),
-    options = $.extend(defaults, options);
+    $el = jQuery(this),
+    options = jQuery.extend(defaults, options);
     var bt_icon = new Image();
    	bt_icon.onload = function (){options.width = this.width,options.height = this.height,setIcon()};
     bt_icon.src = options.img;
 
     function setIcon(){
 		$el.each(function(){	
-			var t = $(this),
+			var t = jQuery(this),
 			w = t.width(),
 			h = t.height(),
 			div = $('<a/>', {
