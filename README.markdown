@@ -1,4 +1,6 @@
-*MakeMeVideoBt.js* create a video iconic link with a background image on a top of an image or a div
+# MakeMeVideoBt.js
+
+MakeMeVideoBt.js create a video iconic link with a background image on a top of an image or a div
 
 ```
 <body>
