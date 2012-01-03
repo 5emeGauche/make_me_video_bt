@@ -1,7 +1,7 @@
 jQuery.fn.makeMeVideoBt = function(options){
 	var defaults = {
             img:'img/play.png',
-            position:'coverAll',
+            dimension:'coverAll',
             htmlTag:'link'
     },
     $el = jQuery(this),
@@ -24,7 +24,7 @@ jQuery.fn.makeMeVideoBt = function(options){
 			if(options.htmlTag == 'span'){
 				div = $('<span/>')
 			}
-			if(options.position == 'clip' ){				
+			if(options.dimension == 'icon' ){				
 				css_obj = {
 					'position':'absolute',
 					'top':top + h*.5 - defaults.height * .5+'px',
@@ -34,7 +34,7 @@ jQuery.fn.makeMeVideoBt = function(options){
 					'height':options.height+'px'
 				}
 			}
-			if(options.position == 'coverAll' ){				
+			if(options.dimension == 'image' ){				
 				css_obj = {
 					'position':'absolute',
 					'top':top +'px',
